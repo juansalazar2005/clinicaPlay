@@ -1,3 +1,33 @@
-.searchInputFalse{
+  .searchInputFalse{
     display: none;
+}
+.foto {
+    height: 36em;
+    object-fit: cover;
+}
+footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    
+    
+}
+.spanClass {
+    padding: .2em .8em;
+    background-color: rgba(37, 211, 102, 1);
+    border-radius: 100%;
+    border: 0;     
+}
+.wpIcon {
+   font-size: 35px;
+   color: white;
+   
+}
+.socialIcons {
+    font-size: auto;
+    color: white;
+    margin: 8px;
 }
