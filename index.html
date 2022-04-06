@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body class="bg-dark">
   <header>
     <!--Navbar superior-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img width="69px" height="63px"
             src="https://clinicadelplay.com/wp-content/uploads/2021/04/cropped-BLANCO-PNG-69x63.png" class="custom-logo"
@@ -30,21 +30,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <div class= "mx-auto d-block text-white">
-              <i class="bi bi-instagram socialIcons"></i>
-              <i class="bi bi-facebook socialIcons"></i>
-              <a href="https://api.whatsapp.com/send?phone=https://lintr.ee/LaClinicaDelPlay"><i class="bi bi-whatsapp socialIcons"></i></a>
-              <a href="https://www.tiktok.com/@clinicadelplay.com?" class="socialIcons">TikTok</a></span>
+              <!--I-->
+              <span class="bg-dark"><i class="bi bi-instagram socialIcons"><a href="https://instagram.com/clinicadelplay"></a></i></span>
+              
+              <!--Facebook-->
+              <span class="bg-dark"><i class="bi bi-facebook socialIcons" ><a href="https://www.facebook.com/laclinicadelplay.co"></a></i></span>
+              <!--Whatsapp-->
+              <span class="bg-dark"><a href="https://api.whatsapp.com/send?phone=https://lintr.ee/LaClinicaDelPlay" target="blank"><i class="bi bi-whatsapp socialIcons"></i></a></span>
+              <!--TikTok-->
+              <span class="bg-dark"><a target="blank" href="https://www.tiktok.com/@clinicadelplay.com?" class="socialIcons">TikTok</a></span>
+
             </div>
           </ul>
           <form class="d-flex">
-            <input id="searchBar" class="form-control me-2 searchInputFalse" type="search" placeholder="Search"
-              aria-label="Search">
+            <input id="searchBar" class="form-control me-2 searchInputFalse" type="search" placeholder="Search" aria-label="Search">
+            <button id="searchButton" class="btn bg-light" type="button"><img src="img/lupa .png" alt="busqueda"></button>
           </form>
         </div>
       </div>
     </nav>
     <!--Navbar inferior-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,15 +94,12 @@
             <input id="searchBar" class="form-control me-2 searchInputFalse" type="search" placeholder="Search"
               aria-label="Search">
           </form>
-          <form class="d-flex">
-            <button id="searchButton" class="btn bg-light" type="button"><img src="img/lupa .png"
-                alt="busqueda"></button>
-          </form>
         </div>
       </div>
     </nav>
   </header>
   <main>
+    <!--Carousel-->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="1000">
@@ -121,8 +124,52 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <br>
+    <!--Div de usadas-->
+    <div class="container-fluid fondoUsadas">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">Consolas usadas</h1>
+          <br>
+          <h4 class="text-white ms-5">Vive el mundo Playstation todas las consolas de sony, juegos y accesorios para tu consolas usadas</h4>
+          <div class="mt-5 d-grid gap-2 d-md-flex justify-content-md-end me-5">
+            <button class="btn btn-dark me-md-2 btn-lg" type="button">COMPRAR!!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Div de compra-->
     <div class="container-fluid">
-
+      <div class="row g-0">
+        <div class="col-3">
+          <img src="img/ps4.jpg" class="w-100">
+        </div>
+        <div class="col-3">
+          <img src="img/ps4.jpg" class="w-100">
+        </div>
+        <div class="col-3">
+          <img src="img/ps4-fat.jpg" class="w-100">
+        </div>
+        <div class="col-3">
+          <img src="img/ps3.jpg" class="w-100">
+        </div>
+      </div>
+      <div class="row g-0 bg-white">
+        <div class="col-3">
+          <div class="">
+            <span class="textoCompra">Consolas usadas de video juegos</span>
+          </div>
+        </div>
+        <div class="col-3">
+          
+        </div>
+        <div class="col-3">
+          <img src="img/ps4-fat.jpg" class="w-100">
+        </div>
+        <div class="col-3">
+          <img src="img/ps3.jpg" class="w-100">
+        </div>
+      </div>
     </div>
   </main>
   <footer>

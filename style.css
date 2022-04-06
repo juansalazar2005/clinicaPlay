@@ -2,7 +2,7 @@
     display: none;
 }
 .foto {
-    height: 36em;
+    height: 37em;
     object-fit: cover;
 }
 footer {
@@ -30,4 +30,14 @@ footer {
     font-size: auto;
     color: white;
     margin: 8px;
+    text-decoration: none;
+}
+.fondoUsadas {
+    background-image: url("img/usadas.jfif");
+    background-size: cover;
+    background-position: top center;
+    padding: 5% 2%;
+}
+.textoCompra {
+    color: darkgrey;
 }

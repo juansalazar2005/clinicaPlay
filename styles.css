@@ -1,0 +1,9 @@
+.menu {
+    background-color: transparent;
+}
+.fondo {
+    background-image: url("img/joystick_white_black_button_xbox_hd-wallpaper-25568.jpg");
+    background-size: cover;
+    background-position: top center;
+    padding: 20% 2% 50% 2%;
+}
