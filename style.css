@@ -32,6 +32,10 @@ footer {
     margin: 8px;
     text-decoration: none;
 }
+.socialIcons:hover {
+    color:white;
+}
+
 .fondoUsadas {
     background-image: url("img/usadas.jfif");
     background-size: cover;
@@ -39,5 +43,9 @@ footer {
     padding: 5% 2%;
 }
 .textoCompra {
-    color: darkgrey;
+    color: rgb(133, 133, 133);
+    margin: 10px
+}
+.whatsappCompra {
+    font-size: 15px;
 }
