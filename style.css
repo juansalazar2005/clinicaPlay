@@ -40,7 +40,7 @@ footer {
     background-image: url("img/usadas.jfif");
     background-size: cover;
     background-position: top center;
-    padding: 5% 2%;
+    padding: 2% 2%;
 }
 .textoCompra {
     color: rgb(133, 133, 133);
@@ -48,4 +48,18 @@ footer {
 }
 .whatsappCompra {
     font-size: 15px;
+}
+.fondoPlaystation {
+    background-image: url("img/divPlaystation.jfif");
+    background-size: cover;
+    background-position: top center;
+    padding: 2% 2%;
+}
+.letraPlaystation {
+    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+}
+.letraPlaystation1 {
+    -webkit-text-stroke: 1px black;
+    font-size: 25px;
 }
